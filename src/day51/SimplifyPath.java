@@ -1,4 +1,4 @@
-package day51_L_71;
+package day51;
 
 import java.util.Stack;
 
