@@ -1,6 +1,6 @@
 package trees_Practice;
 
-class Node {
+public class Node {
     int data;
     BinaryTreeEx1.Node left, right;
 
