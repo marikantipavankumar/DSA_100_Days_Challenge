@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class GrayCode {
     static void main() {
-        int n = 3;
+        int n = 2;
         ArrayList<String> list = grayCode(n);
         System.out.println(list);
     }
