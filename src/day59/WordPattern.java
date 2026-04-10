@@ -1,0 +1,48 @@
+package day59;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class WordPattern {
+    static void main() {
+        String pattern = "abba", s = "dog cat cat dog";
+        boolean ans = findWordPattern(pattern,s);
+        System.out.println("Given String is a Word Pattern:"+ans);
+    }
+
+    public static boolean findWordPattern(String pattern, String s) {
+
+                String[] words = s.split("\\s+");
+
+                if (pattern.length() != words.length) {
+                    return false;
+                }
+
+                HashMap<Character, String> map1 = new HashMap<>();
+                HashMap<String, Character> map2 = new HashMap<>();
+
+                for (int i = 0; i < pattern.length(); i++) {
+                    char ch = pattern.charAt(i);
+                    String word = words[i];
+
+                    if (map1.containsKey(ch)) {
+                        if (!map1.get(ch).equals(word)) {
+                            return false;
+                        }
+                    } else {
+                        map1.put(ch, word);
+                    }
+
+                    if (map2.containsKey(word)) {
+                        if (map2.get(word) != ch) {
+                            return false;
+                        }
+                    } else {
+                        map2.put(word, ch);
+                    }
+                }
+
+                return true;
+            }
+
+}
