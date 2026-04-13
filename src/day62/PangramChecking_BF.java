@@ -1,8 +1,8 @@
-package day61;
+package day62;
 
 import java.util.HashMap;
 
-public class PangramChecking {
+public class PangramChecking_BF {
     static void main() {
         String sentence = "thequickbrownfoxjumpsoverthelazydog";
         boolean ans = isPangram(sentence);
