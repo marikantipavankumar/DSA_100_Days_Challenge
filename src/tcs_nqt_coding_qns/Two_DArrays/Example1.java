@@ -1,4 +1,4 @@
-package Two_DArrays;
+package tcs_nqt_coding_qns.Two_DArrays;
 
 public class Example1 {
     public static  void  main(String[] args){

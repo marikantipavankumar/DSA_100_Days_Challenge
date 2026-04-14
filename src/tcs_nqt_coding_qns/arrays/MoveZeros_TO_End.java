@@ -1,4 +1,4 @@
-package tcs_nqt_coding_qns;
+package tcs_nqt_coding_qns.arrays;
 
 import java.util.Arrays;
 
