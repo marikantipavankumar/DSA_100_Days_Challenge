@@ -3,6 +3,8 @@ import  java.util.*;
 public class ReverseleetersInaWords {
     static void main() {
 
+        HashSet<Character> hs = new HashSet<>();
+        
         Scanner sc = new Scanner(System.in);
         String sentence = sc.nextLine();
 
