@@ -9,11 +9,12 @@ public class MaxSumOfSubArray {
     }
     public  static  int findMaxSumSubArray(int[] arr,int k){
         // first fix the size of the sliding window
-        int sum  = 0,max_sum = 0;
+        int sum  = 0,max_sum = Integer.MIN_VALUE;
         int l = 0;
         for(int r=0;r<k;r++){
             sum = sum + arr[r];
         }
+        max_sum = Math.max(sum,max_sum);
 
         for(int r=k;r<arr.length;r++){
             sum = sum+arr[r]-arr[l];
