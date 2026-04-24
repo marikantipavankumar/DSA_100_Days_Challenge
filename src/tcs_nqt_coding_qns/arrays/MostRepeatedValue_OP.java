@@ -1,7 +1,6 @@
 package tcs_nqt_coding_qns.arrays;
 
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class MostRepeatedValue_OP {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package tcs_nqt_coding_qns.Two_DArrays;
-
 import java.lang.classfile.attribute.SyntheticAttribute;
+
 import  java.util.*;
 public class FindTotalMarks {
     static void main() {
