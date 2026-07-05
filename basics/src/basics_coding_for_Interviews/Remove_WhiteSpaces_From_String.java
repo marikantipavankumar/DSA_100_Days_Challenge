@@ -1,4 +1,4 @@
-package basics;
+package basics_coding_for_Interviews;
 
 public class Remove_WhiteSpaces_From_String {
     static void main() {

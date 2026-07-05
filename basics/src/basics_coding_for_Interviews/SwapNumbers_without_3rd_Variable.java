@@ -1,4 +1,4 @@
-package basics;
+package basics_coding_for_Interviews;
 
 public class SwapNumbers_without_3rd_Variable {
     static void main() {

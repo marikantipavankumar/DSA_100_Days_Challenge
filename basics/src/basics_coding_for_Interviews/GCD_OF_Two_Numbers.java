@@ -1,6 +1,4 @@
-package basics;
-
-import java.util.Scanner;
+package basics_coding_for_Interviews;
 
 public class GCD_OF_Two_Numbers {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package basics;
+package basics_coding_for_Interviews;
 
 public class ArmStrong {
     static void main() {

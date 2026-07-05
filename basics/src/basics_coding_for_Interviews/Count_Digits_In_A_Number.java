@@ -1,4 +1,4 @@
-package basics;
+package basics_coding_for_Interviews;
 
 public class Count_Digits_In_A_Number {
     static void main() {

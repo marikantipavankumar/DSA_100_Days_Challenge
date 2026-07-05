@@ -1,6 +1,5 @@
-package basics;
+package basics_coding_for_Interviews;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class MissingElement {

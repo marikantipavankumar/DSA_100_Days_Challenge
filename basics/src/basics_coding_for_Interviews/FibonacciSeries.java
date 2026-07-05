@@ -1,4 +1,4 @@
-package basics;
+package basics_coding_for_Interviews;
 import  java.util.*;
 public class FibonacciSeries {
     static void main() {

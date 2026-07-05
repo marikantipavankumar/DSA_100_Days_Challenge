@@ -1,4 +1,4 @@
-package basics;
+package basics_coding_for_Interviews;
 
 //package basics;
 //public class PascalsTriangle {
