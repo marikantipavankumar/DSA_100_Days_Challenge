@@ -22,3 +22,7 @@ public class BubbleSort {
         return arr;
     }
 }
+
+/* In Bubble sort we have to compare the each element with all ther elements and we have to place it in the correct postion by comparing with the next element
+it takes O(n**2) time complexity for solving the problem which is not suppposed approach for larger problems.
+ */
