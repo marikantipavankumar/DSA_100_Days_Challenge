@@ -24,7 +24,6 @@ public class SpiralMatrix {
         int bottom = rows-1;
 
         while(top<=bottom && left<=right){
-
             // traverse from left to right
             for(int i = left;i<=right;i++){
                 System.out.print(arr[top][i]+" ");
